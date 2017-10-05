@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+First Name: <input type="text" ng-model="firstName"><br>
+<input type="button" ng-click="add()" value="add" ng-disabled="firstName.length == 0">
+<br>
+<br>
+
+<table style="width: 80%" align="center" border="1">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+               aaa 
+            </th>
+        </tr>
+        <tr ng-repeat="x in data">
+            <td>{{x}}</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+	$scope.data = [];
+    $scope.firstName = "John";
+    $scope.add = function(){
+        $scope.data.push($scope.firstName);
+        $scope.firstName = "";
+    }
+});
+</script>
+
+</body>
+</html>
