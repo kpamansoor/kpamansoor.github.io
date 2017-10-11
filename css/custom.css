@@ -1,0 +1,273 @@
+@font-face{
+font-family:"LBRITEI";
+src:url(../fonts/LBRITEI.TTF);
+font-weight:400;
+font-style:normal
+}
+@font-face{
+font-family:"Lato-Bold";
+src:url(../fonts/Lato-Bold.ttf);
+font-weight:400;
+font-style:normal
+}
+body html{
+	background: #621B56;
+}
+.col-md-4 {
+width: 33.33333333%;
+float: left;
+}
+.container{
+background-image: url(../assets/bg.svg);
+background-size: cover;
+width: 100%;
+background-color: #621B56;
+height: auto;
+max-height: 350px;
+    overflow-y: scroll;
+min-height: 100vh;
+}
+.top-lights{
+	background-image: url(../assets/blinking.gif);
+	background-size: cover;	
+	background-repeat:no-repeat;
+}
+
+.bottom-banner{
+    background-image: url(../assets/bottom_bg.png);
+	background-size: cover;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position-y: -25px;
+	background-position-x: -0px;
+}
+.maybank-logo{
+width: 100%;
+height: 75px;
+display: table;
+margin-top: 2%;
+}
+.raya-greeting-full{
+margin-top: 2%;
+}
+.raya-greeting{
+display: table;
+margin: auto;
+font-family:"LBRITEI";
+font-style: italic;
+}
+.raya-greeting-image{
+width: 25%;
+display: table;
+margin: auto;
+padding-bottom: 25px;
+}
+.raya-greeting-text{
+text-align: center;
+color:#42210b;
+font-size: 20px;
+padding: 0px 60px;
+line-height: 24px;
+}
+.hash-tag{
+text-align: center;
+color:#fff;
+font-family:"Lato-Bold";
+font-style: initial;
+}
+.bootom-share{
+text-align: center;
+margin-top: 25px;
+cursor: pointer;
+}
+
+
+
+/*Styling for screens of 1400px and above*/		
+@media only screen and (min-width:1400px){
+.top-lights{	
+	height: 175px;
+	background-position-y: -25px;
+	background-position-x: 0px;
+}
+.raya-greeting iframe{
+	height:600px;
+}
+.hash-tag{
+text-align: center;
+font-size: 20px;
+}
+.social-icon {
+	height:75px
+}
+
+}
+
+
+/*Styling for screens of 1200px to 1399px (Normal laptops and desktops)*/
+@media (min-width:1200px) and (max-width:1399px) {
+.top-lights{	
+	height: 130px;
+	background-position-y: -25px;
+	background-position-x: 0px;
+}
+.maybank-logo{
+height: 50px;
+}
+.raya-greeting iframe{
+	height:450px;
+}
+.hash-tag{
+	font-size: 16px;
+}
+.social-icon {
+	height:50px
+}
+}
+
+/*Styling for screens of 992px to 1199px (Tablets landscape)*/
+@media (min-width:992px) and (max-width:1199px) {
+.top-lights{	
+	height: 105px;
+}
+.maybank-logo{
+	height: 50px;
+}
+.raya-greeting-image{
+	width:35%;
+}
+.raya-greeting iframe {
+    height: 350px;
+}
+.hash-tag{
+	font-size: 22px;
+}
+.social-icon {
+	height:45px
+}
+}
+
+/*Styling for screens of 768px to 991px (Tablets portrait)*/
+@media (min-width:768px) and (max-width:991px) {
+.top-lights{	
+	height: 70px;	
+}
+.maybank-logo{
+	height: 50px;
+}
+.raya-greeting-image{
+	width:75%;
+}
+.raya-greeting iframe {
+    height: 250px;
+}
+.hash-tag{
+	font-size: 14px;
+}
+.social-icon {
+	height:45px
+}
+
+}
+
+/*Styling for screens of 767px and below(Mobiles portrait)*/
+@media screen and (max-device-width: 767px) and (orientation:portrait) {
+.top-lights{
+	height: 60px;
+	background-position-y: 0px;
+	background-position-x: 0px;
+}
+}
+
+/*Styling for screens of 290px to 599px(Small Mobiles)*/
+@media screen and (min-width: 290px) and (max-width:599px) {	
+.top-lights{
+height: 30px;
+background-position-y: 0px;
+background-position-x: 5px;
+}
+.raya-greeting-text {
+font-size: 18px;
+}
+.raya-greeting iframe{
+height:250px;
+}
+.raya-greeting-image{
+width: 75%;
+padding-bottom: 15px;
+}
+.maybank-logo{
+height: 30px;
+}
+.top-banner{
+margin-top: 25px;
+}
+
+.bottom-banner {
+    background-position-x: -10px;
+}
+.hash-tag{
+	font-size: 12px;
+}
+.social-icon {
+	height:35px
+}
+}
+
+/*Styling for screens of 767px and below(Mobiles landscape)*/
+@media screen and (max-device-width: 767px) and (orientation:landscape) {
+	.top-lights{
+	height: 60px;
+	background-position-y: 0px;
+	background-position-x: 0px;
+}
+.raya-greeting-text {
+font-size: 14px;
+}
+.raya-greeting iframe{
+height:250px;
+}
+.raya-greeting-image{
+width: 50%;
+padding-bottom: 15px;
+}
+.maybank-logo{
+height: 25px;
+}
+.top-banner{
+margin-top: 25px;
+
+}
+.social-icon {
+	height:35px
+}
+}
+
+/*Styling for screens of 600px to 800px(Small Tablets)*/
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	.top-lights{
+	height: 60px;
+	background-position-y: 0px;
+	background-position-x: 0px;
+}
+.raya-greeting-text {
+font-size: 14px;
+}
+.raya-greeting iframe{
+height:250px;
+}
+.raya-greeting-image{
+width: 50%;
+padding-bottom: 15px;
+}
+.maybank-logo{
+height: 25px;
+}
+.top-banner{
+margin-top: 25px;
+
+}
+.social-icon {
+	height:35px
+}
+}
