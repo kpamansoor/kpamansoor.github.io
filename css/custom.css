@@ -44,8 +44,7 @@ min-height: 100vh;
 .maybank-logo{
 width: 100%;
 height: 75px;
-display: table;
-margin-top: 2%;
+display: table; 
 }
 .raya-greeting-full{
 margin-top: 2%;
@@ -107,12 +106,14 @@ font-size: 20px;
 /*Styling for screens of 1200px to 1399px (Normal laptops and desktops)*/
 @media (min-width:1200px) and (max-width:1399px) {
 .top-lights{	
-	height: 130px;
+	height: 120px;
 	background-position-y: -25px;
 	background-position-x: 0px;
 }
 .maybank-logo{
-height: 50px;
+height: 200px;
+margin-top: -5%;
+margin-bottom: -8%;
 }
 .raya-greeting iframe{
 	height:450px;
@@ -129,9 +130,13 @@ height: 50px;
 @media (min-width:992px) and (max-width:1199px) {
 .top-lights{	
 	height: 105px;
+	background-position-y: -30px;
+	background-position-x: -15px;
 }
 .maybank-logo{
-	height: 50px;
+	height: 200px;
+	margin-top: 0%;
+	margin-bottom: -8%;
 }
 .raya-greeting-image{
 	width:35%;
@@ -151,9 +156,13 @@ height: 50px;
 @media (min-width:768px) and (max-width:991px) {
 .top-lights{	
 	height: 70px;	
+    background-position-y: -20px;
+    background-position-x: 0px;
+}
 }
 .maybank-logo{
-	height: 50px;
+	height: 150px;
+	margin-bottom: -8%;
 }
 .raya-greeting-image{
 	width:75%;
@@ -182,9 +191,9 @@ height: 50px;
 /*Styling for screens of 290px to 599px(Small Mobiles)*/
 @media screen and (min-width: 290px) and (max-width:599px) {	
 .top-lights{
-height: 30px;
-background-position-y: 0px;
-background-position-x: 5px;
+height: 45px;
+background-position-y: -5px;
+background-position-x: 0px;
 }
 .raya-greeting-text {
 font-size: 18px;
@@ -197,7 +206,8 @@ width: 75%;
 padding-bottom: 15px;
 }
 .maybank-logo{
-height: 30px;
+height: 100px;
+margin-bottom: -8%;
 }
 .top-banner{
 margin-top: 25px;
@@ -236,7 +246,6 @@ height: 25px;
 }
 .top-banner{
 margin-top: 25px;
-
 }
 .social-icon {
 	height:35px
@@ -247,7 +256,7 @@ margin-top: 25px;
 @media screen and (min-width: 600px) and (max-width: 800px) {
 	.top-lights{
 	height: 60px;
-	background-position-y: 0px;
+	background-position-y: -5px;
 	background-position-x: 0px;
 }
 .raya-greeting-text {
@@ -261,7 +270,8 @@ width: 50%;
 padding-bottom: 15px;
 }
 .maybank-logo{
-height: 25px;
+height: 120px;
+	margin-bottom: -8%;
 }
 .top-banner{
 margin-top: 25px;
